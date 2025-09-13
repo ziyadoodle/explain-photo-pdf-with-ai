@@ -2,9 +2,18 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+### Step 1: Generate Your Gemini AI API Key
+To get started, you’ll first need to generate a Gemini AI API key. Here’s how:
+
+Open this [link](https://aistudio.google.com/apikey), log in and generate the api key
+Log in and generate the API key.
+
+### Step 2: Create .env File
+Create a .env file in root project then paste your api key to `GOOGLE_GENERATIVE_AI_API_KEY` variable
+
+### Step 3:
 ```bash
 1. bun install
-2. create .env file
 2. bun dev
 ```
 
